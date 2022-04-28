@@ -105,6 +105,7 @@ a{
     grid-row: 1/2;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .grid2-item4{

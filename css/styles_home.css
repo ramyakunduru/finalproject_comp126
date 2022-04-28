@@ -1,0 +1,149 @@
+html {
+    font-family: 'Mada', sans-serif;
+    font-family: 'Maitree', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+label{
+    font-family: 'Mulish';
+    padding: 10px;
+}
+
+a{
+    font-family: Mada;
+}
+
+.display{
+    display: inline-block;
+}
+
+.create {
+    width: 100%;
+}
+
+
+.footer {
+    background-color: #bee5bf;
+    text-align: center;
+}
+
+.top {
+    background-color:#bee5bf;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: mulish;
+}
+
+.nav-bar {
+    padding-left: 0px;
+}
+
+.nav-link {
+    color:black;
+}
+
+.form {
+    background: #f5f5f5;
+    height: 100%;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center; 
+    font-family: mulish; 
+    color: #E88D76; 
+    font-size: 3em;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_item1{
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.flex_items{
+    width: 85%;
+    height: 25vh;
+    margin-top: 5vh;
+    background-color: #FFD1BA;
+    border: 3px solid #1B2021;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 40% 60%;
+}
+
+.picture-item{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-item{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: Mada;
+    text-decoration: underline;
+}
+
+.favorite-star{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    color: white;
+    transition: color 300ms;
+}
+
+.star:hover, .star:active, .star:focus{
+    color:black;
+}
+
+.star2{
+    color: black;
+    transition: color 300ms;
+}
+
+.star2:hover, .star2:active, .star2:focus{
+    color:white;
+}
+
+p{
+    font-family: Mada;
+}
+
+.description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    margin-top: 5vh;
+}

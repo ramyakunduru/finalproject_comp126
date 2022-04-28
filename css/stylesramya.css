@@ -1,0 +1,123 @@
+html {
+    font-family: 'Mada', sans-serif;
+    font-family: 'Maitree', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+label {
+    font-family: 'Mulish';
+    padding: 10px;
+}
+
+.placeholder {
+    color: #E88D76;
+    font-family: 'maitree';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+  
+/*
+
+button {
+    padding: 10px 20px;
+    color: rgb(8, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(94, 179, 126) 0%, rgb(247, 220, 145) 50%);
+    background-size: 200%;
+    background-position: 0% 0%;
+    transition: background-position 0.8s ease
+}
+
+*/
+
+.create {
+    width: 100%;
+}
+
+/*
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 100px 10px 100px;
+}
+*/
+
+.footer {
+    background-color: #bee5bf;
+    text-align: center;
+}
+
+.top {
+    background-color:#bee5bf;
+    height: 100px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+#selectbox {
+    color: #bee5bf;
+}
+
+h1 {
+    margin-top: 20px;
+    color:#E88D76;
+}
+
+.signupform {
+    background: #f5f5f5;
+    height: 100%;
+    padding: 40px;
+}
+
+.form {
+    background: #f5f5f5;
+    height: 100%;
+    padding: 0px;
+    font-size: 1em;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center; 
+    font-family: mulish; 
+    color: #7c90a0; 
+    font-size: 3em;
+}
+
+.button {
+    padding: 30px 50px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+button {
+    margin: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'mulish';
+    background-color: #7c90a0;
+}
+
+button:hover {
+    background-color: #E88D76
+}

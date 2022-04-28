@@ -1,0 +1,225 @@
+
+html {
+    font-family: 'Mada', sans-serif;
+    font-family: 'Maitree', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    font-family: 'Mulish';
+}
+
+a{
+    font-family: "Mada";
+}
+
+/* Most of this is for the login/signup page from here*/
+.grid-area{
+    display:grid;
+    grid-template-columns:3% 20% 74% 3%;
+    grid-template-rows: 13vh 25vh 30vh 28vh;
+}
+
+.grid-item1{
+    background-color: #bee5bf;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.grid-item2{
+    background-color: #bee5bf;
+    grid-column: 4/5;
+    grid-row: 1/1;
+}
+
+.grid-item3{
+    background-color: #bee5bf;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display:flex;
+    justify-content: center;
+}
+
+.grid-item4{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 3px solid #1B2021;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Code for login and signup buttons for login/signup page */
+.grid-item5{
+    background-color: none;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.login{
+    background-color: #7C90A0;
+    border: none;
+    color: white;
+    width: 70%;
+    height: 30%;
+    margin-top: 3%;
+}
+
+.appname{
+    color: #1B2021;
+    font-size: 4rem;
+}
+/*To here*/
+
+
+/*Login page only from here*/
+.grid-area2{
+    display:grid;
+    grid-template-columns:3% 20% 74% 3%;
+    grid-template-rows: 13vh 25vh 48vh 10vh;
+}
+
+.grid2-item1{
+    background-color: #bee5bf;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.grid2-item2{
+    background-color: #bee5bf;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.grid2-item3{
+    background-color: #bee5bf;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display:flex;
+    justify-content: center;
+}
+
+.grid2-item4{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 3px solid #1B2021;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2-item5{
+    background-color: none;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;*/
+}
+
+.grid2-item6{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagename{
+    text-align: center; 
+    font-family: mulish; 
+    color: #E88D76; 
+    font-size: 3em;
+}
+/*To here*/
+
+/* Form CSS start */
+
+form {
+  max-width: 90%;
+  /*
+  max-height: 90%;
+  */
+  margin: 5px auto;
+  padding: 10px 10px;
+  background: #FFD1BA;
+  border-radius: 8px;
+  border: 2pt solid;
+}
+
+input[type="text"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 15px;
+  /*
+  caret-color: purple;
+  caret-size: 5px;
+  */
+  transition: all 350ms;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #E88D67;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 2px solid #E88D67;
+}
+
+label:required {
+  color: yellow;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+
+fieldset {
+  margin-bottom: 15px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login2{
+    background-color: #7C90A0;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 30%;
+    margin-top: 3%;
+}
+/*Form CSS End*/ 
+
+.footer {
+    background-color: #bee5bf;
+    text-align: center;
+}

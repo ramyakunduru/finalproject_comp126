@@ -22,17 +22,6 @@ a{
     grid-template-rows: 13vh 25vh 30vh 28vh;
 }
 
-.grid-item1{
-    background-color: #bee5bf;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.grid-item2{
-    background-color: #bee5bf;
-    grid-column: 4/5;
-    grid-row: 1/1;
-}
 
 .grid-item3{
     background-color: #bee5bf;
@@ -43,15 +32,6 @@ a{
     align-items: center;
 }
 
-.grid-item4{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    border: 3px solid #1B2021;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /* Code for login and signup buttons for login/signup page */
 .grid-item5{
     background-color: none;
@@ -60,8 +40,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-
 }
 
 .login{

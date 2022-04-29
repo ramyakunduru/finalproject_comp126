@@ -18,42 +18,15 @@ body {
     margin: 0px;
     padding: 0px;
 }
-  
-/*
-
-button {
-    padding: 10px 20px;
-    color: rgb(8, 0, 0);
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    margin-top: 10px;
-    background-image: linear-gradient(to right, rgb(94, 179, 126) 0%, rgb(247, 220, 145) 50%);
-    background-size: 200%;
-    background-position: 0% 0%;
-    transition: background-position 0.8s ease
-}
-
-*/
-
-.create {
-    width: 100%;
-}
-
-/*
-a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 100px 10px 100px;
-}
-*/
 
 .footer {
     background-color: #bee5bf;
     text-align: center;
+}
+
+footer {
+    font-family: mulish;
+    color: black;
 }
 
 .top {
@@ -75,6 +48,11 @@ h1 {
     margin-top: 20px;
     color:#1B2021;
     font-size: 3rem;
+}
+
+#first {
+    font-family: mulish; 
+    text-align: center;
 }
 
 .signupform {
@@ -121,4 +99,18 @@ button {
 
 button:hover {
     background-color: #E88D76
+}
+
+#create {
+   background-color: #7C90a0;
+   border:none;
+   font-family:mulish;
+}
+
+#final {
+    background-color: #7C90a0; 
+    border:none; 
+    font-family:mulish; 
+    margin: 2% 20%;
+    width: 100%;
 }

@@ -11,9 +11,37 @@
       @import url('https://fonts.googleapis.com/css2?family=Mada&family=Maitree&family=Mulish:wght@900&display=swap');
     </style>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+       <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/styles_home.css">
 </head>
 <body>
+  <div class="modal-container" id="modal_container">
+    <div class="myModal">
+        <h1 class="filterlabel">Filter Events</h1>
+        <div class="items">
+            <input type="checkbox" id="cb1" name="concert" value="concert">
+            <label for="concert">Concert</label>
+            <input type="checkbox" id="cb2" name="sports" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="cb3" name="movie" value="movie">
+            <label for="movie">Movie</label>
+            <input type="checkbox" id="cb4" name="charity" value="charity">
+            <label for="charity">Charity</label>
+        </div>
+        <div class="items2">   
+            <input type="checkbox" id="cb5" name="outdoors" value="outdoors">
+            <label for="outdoors">Outdoors</label>
+            <input type="checkbox" id="cb6" name="social" value="social">
+            <label for="social">Social</label>
+            <input type="checkbox" id="cb7" name="games" value="games">
+            <label for="games">Games</label>
+            <input type="checkbox" id="cb8" name="food" value="food">
+            <label for="food">Food</label>
+        </div>    
+        <button id="close">Apply Filter</button>
+    </div>
+  </div>
+
     <div class="top">
         <div class="container d-flex flex-column" > 
             <div class="row">

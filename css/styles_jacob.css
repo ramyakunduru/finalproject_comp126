@@ -22,7 +22,6 @@ a{
     grid-template-rows: 13vh 25vh 30vh 28vh;
 }
 
-
 .grid-item3{
     background-color: #bee5bf;
     grid-column: 1/5;
@@ -140,6 +139,7 @@ select {
 input::placeholder,
 textarea::placeholder {
   color: #E88D67;
+  font-family:'maitree';
 }
 
 input:hover,
@@ -169,6 +169,7 @@ fieldset {
 label {
   display: block;
   margin-bottom: 8px;
+  font-family: 'mulish';
 }
 
 .login2{
@@ -184,4 +185,9 @@ label {
 .footer {
     background-color: #bee5bf;
     text-align: center;
+}
+
+.navbar {
+  font-family: 'mada';
+  margin-right: 0px;
 }

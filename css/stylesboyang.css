@@ -184,10 +184,13 @@ h1 {
     padding: 2rem;
     border-bottom: 2px solid black;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+    background-color: #bee5bf;
+    text-align: center;
+}
+
+.foot{
+    margin-top: 5vh;
 }
 
 @media screen and (min-width: 1200px) {

@@ -25,7 +25,7 @@ body {
 }
 
 footer {
-    font-family: mulish;
+    font-family: 'mulish';
     color: black;
 }
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 #first {
-    font-family: mulish; 
+    font-family: 'mulish'; 
     text-align: center;
 }
 
@@ -67,11 +67,12 @@ h1 {
     padding: 0px;
     font-size: 1em;
     padding: 40px;
+    width: 100%;
 }
 
 h2 {
     text-align: center; 
-    font-family: mulish; 
+    font-family: 'mulish'; 
     color: #E88D76; 
     font-size: 3em;
 }
@@ -104,13 +105,14 @@ button:hover {
 #create {
    background-color: #7C90a0;
    border:none;
-   font-family:mulish;
+   font-family: 'mulish';
+   width: 100%;
 }
 
 #final {
     background-color: #7C90a0; 
-    border:none; 
-    font-family:mulish; 
+    border: none; 
+    font-family: 'mulish'; 
     margin: 2% 20%;
     width: 100%;
 }

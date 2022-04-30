@@ -161,6 +161,8 @@ button {
     padding: 10px 25px;
     margin-top: 30px;
     font-size: 1.2rem;
+    font-family: 'mulish';
+    color: white;
 }
   
 .modal-container {

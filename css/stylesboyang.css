@@ -12,7 +12,7 @@
     border: 0;
 }
 .navbar {
-    color: #1B2021;
+    color: black;
     font-family: Mada;
 }
 .container {
@@ -46,6 +46,7 @@ header{
 h1 {
     color: #e88d67;
     font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
 }
 
 .grid-layout {

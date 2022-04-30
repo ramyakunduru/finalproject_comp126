@@ -8,7 +8,9 @@ html {
 }
 
 h1{
-    font-family: 'Mulish';
+  font-size: 3rem;
+  font-family: 'mulish';
+  float:right;
 }
 
 a{
@@ -189,5 +191,10 @@ label {
 
 .navbar {
   font-family: 'mada';
-  margin-right: 0px;
+  margin: 10px 0px;
 }
+
+.top {
+  display: inline-block;
+}
+
